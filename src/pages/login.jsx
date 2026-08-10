@@ -15,7 +15,7 @@ export default function Login() {
     setError("");
 
     try {
-      const res = await client.post("/auth/sign-in", { email, password });
+      const res = await client.post("/auth/signin", { email, password });
       const { access_token, conversation_id, user_name, tier } = res.data;
 
       // save to localStorage
