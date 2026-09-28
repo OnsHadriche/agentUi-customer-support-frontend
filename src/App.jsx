@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
-import Chat from "./pages/Chat";
+import Chat from "./pages/chat";
 
 export default function App() {
   return (
